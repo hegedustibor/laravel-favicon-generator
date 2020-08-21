@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Skeleton\Tests;
+namespace Hegedustibor\LaravelFaviconGenerator\Tests;
 
 class ExampleTest extends TestCase
 {

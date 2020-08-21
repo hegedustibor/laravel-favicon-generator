@@ -1,16 +1,16 @@
 {
-    "name": "spatie/:package_name",
-    "description": ":package_description",
+    "name": "spatie/Laravel Favicon Generator",
+    "description": "",
     "keywords": [
         "spatie",
-        ":package_name"
+        "Laravel Favicon Generator"
     ],
-    "homepage": "https://github.com/spatie/:package_name",
+    "homepage": "https://github.com/spatie/Laravel Favicon Generator",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
+            "name": "Tibor Hegedüs",
+            "email": "contact@hegedustibor.hu",
             "homepage": "https://spatie.be",
             "role": "Developer"
         }
@@ -27,12 +27,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Skeleton\\": "src"
+            "Hegedustibor\\LaravelFaviconGenerator\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Skeleton\\Tests\\": "tests"
+            "Hegedustibor\\LaravelFaviconGenerator\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -47,10 +47,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\Skeleton\\SkeletonServiceProvider"
+                "Hegedustibor\\LaravelFaviconGenerator\\LaravelFaviconGeneratorServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "Spatie\\Skeleton\\SkeletonFacade"
+                "LaravelFaviconGenerator": "Hegedustibor\\LaravelFaviconGenerator\\LaravelFaviconGeneratorFacade"
             }
         }
     },

@@ -1,12 +1,12 @@
 <?php
 
-namespace Spatie\Skeleton\Commands;
+namespace Hegedustibor\LaravelFaviconGenerator\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LaravelFaviconGeneratorCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'Laravel Favicon Generator';
 
     public $description = 'My command';
 

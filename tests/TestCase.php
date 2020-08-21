@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\Skeleton\Tests;
+namespace Hegedustibor\LaravelFaviconGenerator\Tests;
 
 use Orchestra\Testbench\TestCase as Orchestra;
-use Spatie\Skeleton\SkeletonServiceProvider;
+use Hegedustibor\LaravelFaviconGenerator\LaravelFaviconGeneratorServiceProvider;
 
 class TestCase extends Orchestra
 {
@@ -17,7 +17,7 @@ class TestCase extends Orchestra
     protected function getPackageProviders($app)
     {
         return [
-            SkeletonServiceProvider::class,
+            LaravelFaviconGeneratorServiceProvider::class,
         ];
     }
 
@@ -31,7 +31,7 @@ class TestCase extends Orchestra
         ]);
 
         /*
-        include_once __DIR__.'/../database/migrations/create_skeleton_table.php.stub';
+        include_once __DIR__.'/../database/migrations/create_Laravel Favicon Generator_table.php.stub';
         (new \CreatePackageTable())->up();
         */
     }
