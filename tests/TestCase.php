@@ -2,8 +2,8 @@
 
 namespace Hegedustibor\LaravelFaviconGenerator\Tests;
 
-use Orchestra\Testbench\TestCase as Orchestra;
 use Hegedustibor\LaravelFaviconGenerator\LaravelFaviconGeneratorServiceProvider;
+use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {

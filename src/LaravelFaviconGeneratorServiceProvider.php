@@ -2,8 +2,8 @@
 
 namespace Hegedustibor\LaravelFaviconGenerator;
 
-use Illuminate\Support\ServiceProvider;
 use Hegedustibor\LaravelFaviconGenerator\Commands\LaravelFaviconGeneratorCommand;
+use Illuminate\Support\ServiceProvider;
 
 class LaravelFaviconGeneratorServiceProvider extends ServiceProvider
 {
